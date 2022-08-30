@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<odoo>
+    <data noupdate="1">
+        <function model="res.company"
+            name="create_missing_return_sequence"/>
+        <function model="res.company"
+            name="create_missing_return_picking_type"/>
+        <function model="res.company"
+            name="create_missing_return_rule"/>
+    </data>
+</odoo>
